@@ -52,12 +52,3 @@ jobs:
           AWS_S3_1.0_BENCHMARK.ckl
           AWS_S3_1.0_BENCHMARK.xml
           AWS_S3_1.0_BENCHMARK.json
-    - name: Publish Release
-      uses: "marvinpinto/action-automatic-releases@latest"
-      if: github.ref == 'refs/heads/main'
-      with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          prerelease: false
-          automatic_release_tag: "latest"
-          files: AWS_S3_1.0_BENCHMARK.ckl
-
