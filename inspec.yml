@@ -1,5 +1,5 @@
-name: rds-bp-benchmark
-summary: An InSpec Compliance Profile for AWS RDS best practices
+name: s3-bp-benchmark
+summary: An InSpec Compliance Profile for AWS S3 best practices
 version: 0.1.0
 inspec_version: '~> 4'
 
